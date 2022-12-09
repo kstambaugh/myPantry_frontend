@@ -1,0 +1,32 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+body {
+  background-color: #fcfadd;
+}
+
+.app_header h1 {
+  color: #009ffd;
+  text-align: center;
+}
+.app_header nav {
+  border: solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.app_header nav li {
+  padding: 18px 45px;
+  margin: 0;
+}
+.app_header nav li:hover {
+  background-color: #009ffd;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

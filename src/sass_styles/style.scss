@@ -1,0 +1,45 @@
+@import "colors";
+
+* {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+body {
+    background-color: $primary_color;
+}
+
+
+.app_header {
+    h1 {
+        color: $secondary_color;
+        text-align: center;
+    }
+
+    nav {
+        border: solid black;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+        li {
+            padding: 18px 45px;
+            margin: 0;
+
+            &:hover {
+                background-color: $secondary_color;
+                color: white;
+            }
+
+        }
+
+
+
+    }
+
+}
